@@ -150,6 +150,11 @@ button.sec {
     height:110px;
     margin-top: 20px;
     border-radius: 10px;  
+    transition: transform 400ms ease-in-out ;
+}
+
+.popular__list__photo:hover{
+    transform:scale(1.2) translate(10px,10px);
 }
 
 .popular__item:nth-child(1) .popular__list__photo{
